@@ -5,7 +5,7 @@
 A PHPass Hasher integration to Laravel 5. This package overrides the default Bycrypt Hasher of Laravel 
 and uses the [Phpass](http://openwall.com/phpass/) Library from Openwall for password hashing and checking methods.
 
-If you are using Laravel 5.0 and below, try out the old implementation [here](https://github.com/ksungcaya/phpass).
+If you are using Laravel 4, try out the old implementation [here](https://github.com/ksungcaya/phpass).
 
 ## Installation
 
