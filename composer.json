@@ -1,6 +1,6 @@
 {
     "name": "ksungcaya/phpass-laravel",
-    "description": "PHPass Hasher integration to Laravel 5",
+    "description": "PHPass Hasher integration to Laravel ~5.1",
     "license": "MIT",
     "authors": [
         {
