@@ -1,0 +1,26 @@
+{
+    "name": "ksungcaya/phpass-laravel",
+    "description": "PHPass Hasher integration to Laravel 5",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kenneth Sungcaya",
+            "email": "ksungcaya@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpspec/phpspec": "~2.0"
+    },
+    "require": {
+        "php": ">=5.5.9",
+        "hautelook/phpass": "dev-master",
+        "illuminate/contracts": "5.1.*",
+        "illuminate/support": "5.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sungcaya\\Phpass\\": "src/Sungcaya/Phpass"
+        }
+    },
+    "minimum-stability" : "dev"
+}
