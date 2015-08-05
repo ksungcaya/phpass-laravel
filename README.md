@@ -1,4 +1,4 @@
-#PHPass Hashing integration for Laravel ~5.1
+#PHPass Hashing integration for Laravel 5
 
 [![Build Status](https://travis-ci.org/ksungcaya/phpass-laravel.svg?branch=master)](https://travis-ci.org/ksungcaya/phpass-laravel)
 

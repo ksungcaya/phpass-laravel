@@ -1,6 +1,6 @@
 {
     "name": "ksungcaya/phpass-laravel",
-    "description": "PHPass Hasher integration to Laravel ~5.1",
+    "description": "PHPass Hasher integration to Laravel 5",
     "license": "MIT",
     "authors": [
         {
@@ -12,10 +12,10 @@
         "phpspec/phpspec": "~2.0"
     },
     "require": {
-        "php": ">=5.5.9",
-        "hautelook/phpass": "dev-master",
-        "illuminate/contracts": "5.1.*",
-        "illuminate/support": "5.1.*"
+        "php": ">=5.4.0",
+        "illuminate/contracts": "5.0.x|5.1.x",
+        "illuminate/support": "5.0.x|5.1.x",
+        "hautelook/phpass": "*"
     },
     "autoload": {
         "psr-4": {
