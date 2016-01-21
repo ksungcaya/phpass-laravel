@@ -1,5 +1,4 @@
 suites:
     main:
         namespace: Sungcaya\Phpass
-        psr4_prefix: Sungcaya\Phpass
         src_path: src/Sungcaya/Phpass
