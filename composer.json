@@ -1,5 +1,5 @@
 {
-    "name": "ksungcaya/phpass-laravel",
+    "name": "thomassjogren/phpass-laravel",
     "description": "PHPass Hashing integration to Laravel 5",
     "keywords": ["phpass", "laravel", "hashing", "password"],
     "license": "MIT",
