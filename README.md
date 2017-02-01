@@ -14,7 +14,7 @@ Install package through Composer.
 
 ```js
 "require": {
-    "ksungcaya/phpass-laravel": "1.*"
+    "ksungcaya/phpass-laravel": "~1.0"
 }
 ```
 
