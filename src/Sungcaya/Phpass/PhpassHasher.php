@@ -1,6 +1,5 @@
 <?php namespace Sungcaya\Phpass;
 
-use RuntimeException;
 use Hautelook\Phpass\PasswordHash;
 use Illuminate\Contracts\Hashing\Hasher as HasherContract;
 
@@ -10,7 +9,7 @@ class PhpassHasher implements HasherContract
      * @var PasswordHash
      */
     protected $hasher;
-    
+
     /**
      * Create PhpassHasher instance.
      *
@@ -19,6 +18,16 @@ class PhpassHasher implements HasherContract
     public function __construct(PasswordHash $hasher)
     {
         $this->hasher = $hasher;
+    }
+
+    /**
+     * Get information about the given hashed value.
+     *
+     * @param  string  $hashedValue
+     * @return array
+     */
+    public function info($hashedValue) {
+        return password_get_info($hashedValue);
     }
 
     /**
@@ -63,5 +72,4 @@ class PhpassHasher implements HasherContract
     {
         return false;
     }
-
 }
